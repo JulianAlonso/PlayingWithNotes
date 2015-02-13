@@ -14,6 +14,9 @@
 		0153C1571A8D340700851C77 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0153C1561A8D340700851C77 /* Images.xcassets */; };
 		0153C15A1A8D340700851C77 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0153C1581A8D340700851C77 /* LaunchScreen.xib */; };
 		0153C1661A8D340700851C77 /* NotesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0153C1651A8D340700851C77 /* NotesTests.m */; };
+		0153C1711A8D361400851C77 /* NoteDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0153C1701A8D361400851C77 /* NoteDetailViewController.m */; };
+		0153C1741A8D37DB00851C77 /* NoteListDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0153C1731A8D37DB00851C77 /* NoteListDelegate.m */; };
+		0153C1771A8D388600851C77 /* NotesRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = 0153C1761A8D388600851C77 /* NotesRepository.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,12 @@
 		0153C15F1A8D340700851C77 /* NotesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0153C1641A8D340700851C77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0153C1651A8D340700851C77 /* NotesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotesTests.m; sourceTree = "<group>"; };
+		0153C16F1A8D361400851C77 /* NoteDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteDetailViewController.h; sourceTree = "<group>"; };
+		0153C1701A8D361400851C77 /* NoteDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteDetailViewController.m; sourceTree = "<group>"; };
+		0153C1721A8D37DB00851C77 /* NoteListDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteListDelegate.h; sourceTree = "<group>"; };
+		0153C1731A8D37DB00851C77 /* NoteListDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteListDelegate.m; sourceTree = "<group>"; };
+		0153C1751A8D388600851C77 /* NotesRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotesRepository.h; sourceTree = "<group>"; };
+		0153C1761A8D388600851C77 /* NotesRepository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotesRepository.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +98,12 @@
 				0153C1561A8D340700851C77 /* Images.xcassets */,
 				0153C1581A8D340700851C77 /* LaunchScreen.xib */,
 				0153C1491A8D340700851C77 /* Supporting Files */,
+				0153C16F1A8D361400851C77 /* NoteDetailViewController.h */,
+				0153C1701A8D361400851C77 /* NoteDetailViewController.m */,
+				0153C1721A8D37DB00851C77 /* NoteListDelegate.h */,
+				0153C1731A8D37DB00851C77 /* NoteListDelegate.m */,
+				0153C1751A8D388600851C77 /* NotesRepository.h */,
+				0153C1761A8D388600851C77 /* NotesRepository.m */,
 			);
 			path = Notes;
 			sourceTree = "<group>";
@@ -220,8 +235,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0153C1521A8D340700851C77 /* ViewController.m in Sources */,
+				0153C1711A8D361400851C77 /* NoteDetailViewController.m in Sources */,
 				0153C14F1A8D340700851C77 /* AppDelegate.m in Sources */,
+				0153C1741A8D37DB00851C77 /* NoteListDelegate.m in Sources */,
 				0153C14C1A8D340700851C77 /* main.m in Sources */,
+				0153C1771A8D388600851C77 /* NotesRepository.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
