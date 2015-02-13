@@ -51,6 +51,8 @@ NSString *const kNotes = @"kNotesId";
 - (void)saveNote:(NSString *)noteText
 {
     [self.notes addObject:noteText];
+    
+    [self saveToUserDefaults:self.notes];
 }
 
 #pragma mark - UserDefaults methods.
